@@ -22,7 +22,11 @@ function currentLine(line){
     }
     else {
       var next = "The line is currently: "
-
+      let i = 0
+      do {
+        next = next + i + ". " + line[i]
+      }
+      while (i < line.length)
     }
   }
   
