@@ -24,7 +24,7 @@ function currentLine(line){
       var next = "The line is currently: "
       let i = 0
       do {
-        next = next + (i+1) + ". " + line[i] " "
+        next = next + (i+1) + ". " + line[i] + " "
         i++
       }
       while (i < line.length)
