@@ -1,3 +1,5 @@
+var katzDeliLine = []
+
 function takeANumber(n,name){
   katzDeliLine.push(name)
   n = katzDeliLine.length
