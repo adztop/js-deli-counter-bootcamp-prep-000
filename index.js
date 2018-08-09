@@ -1,7 +1,6 @@
-var katzDeliLine = []
+//var katzDeliLine = []
 
-function takeANumber(n,name){
+function takeANumber(katzDeliLine,name){
   katzDeliLine.push(`${name}`)
-  n = katzDeliLine.length
-  return (`Welcome, ${name}. You are number ${n} in line.`)
+  return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
 }
