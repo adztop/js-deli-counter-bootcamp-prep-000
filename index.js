@@ -24,8 +24,14 @@ function currentLine(line){
       var next = "The line is currently: "
       let i = 0
       do {
+        if (i === 0){
         next = next + (i+1) + ". " + line[i] + " "
         i++
+        }
+        else{
+          next = next + ", " (i+1) + ". " + line[i] + " "
+        i++
+        }
       }
       while (i < line.length)
     }
