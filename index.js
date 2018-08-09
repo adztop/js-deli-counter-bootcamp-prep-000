@@ -25,7 +25,7 @@ function currentLine(line){
       let i = 0
       do {
         if (i === 0){
-        next = next + (i+1) + ". " + line[i] + " "
+        next = next + (i+1) + ". " + line[i]
         i++
         }
         else{
