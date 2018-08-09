@@ -15,4 +15,10 @@ function nowServing(katzDeliLine){
     return `Currently serving ${next}.`
   }
   
+  function currentline(line){
+    if (line.length === 0){
+      
+    }
+  }
+  
 }
