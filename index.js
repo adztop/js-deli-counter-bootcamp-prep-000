@@ -29,5 +29,6 @@ function currentLine(line){
       }
       while (i < line.length)
     }
+    return next
   }
   
