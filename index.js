@@ -22,10 +22,7 @@ function currentLine(line){
     }
     else {
       var next = "The line is currently: "
-      for (i = 0; i < line.length; i++){
-        //if (i ===)
-        next = next + i + ". " + line[i] + ", "
-      }
+
     }
   }
   
