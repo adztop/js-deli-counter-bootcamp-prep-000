@@ -29,7 +29,7 @@ function currentLine(line){
         i++
         }
         else{
-          next = next + ", " + (i+1) + ". " + line[i] + " "
+          next = next + ", " + (i+1) + ". " + line[i]
         i++
         }
       }
